@@ -6,7 +6,7 @@ export function App() {
   return (
     <div
       className="min-h-screen bg-gray-900 text-gray-300
-        sm:text-base font-[roboto] antialiased"
+        sm:text-[0.75rem] font-[roboto] antialiased"
     >
       <Header />
       <div
