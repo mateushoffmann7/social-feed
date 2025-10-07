@@ -3,7 +3,7 @@
 @layer base {
   html,
   body {
-    @apply bg-gray-900 min-h-screen text-[1rem];
+    @apply bg-gray-900 min-h-screen;
   }
 }
 
