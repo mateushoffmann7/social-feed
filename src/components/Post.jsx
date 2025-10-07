@@ -1,3 +1,5 @@
+import { Comment } from './Comment';
+
 export function Post() {
   return (
     <div className="p-[2.5rem] bg-gray-800 rounded-[8px] mt-8 first:mt-0">
@@ -94,6 +96,9 @@ export function Post() {
               </footer>
             </div>
           </form>
+          <div>
+            <Comment />
+          </div>
         </div>
       </article>
     </div>
