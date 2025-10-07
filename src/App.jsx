@@ -11,7 +11,8 @@ export function App() {
       <Header />
       <div
         className="max-w-[70rem] my-[2rem] mx-auto py-0 px-[1rem]
-        grid grid-cols-[256px_1fr] gap-[2rem] items-start"
+        grid sm:grid-cols-[256px_1fr] gap-[2rem] items-start
+        grid-cols-1"
       >
         <Sidebar />
         <main>
