@@ -27,7 +27,8 @@ export function Sidebar() {
                     rounded-[8px] h-[50px] py-6 font-bold 
                     flex items-center justify-center gap-2
                     hover:bg-green-500 hover:text-white
-                    transition-colors"
+                    transition-colors 
+                    focus:outline-1 focus:outline-green-500"
         >
           <PencilSimpleLine size={20} />
           Editar seu Perfil

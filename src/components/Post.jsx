@@ -33,27 +33,43 @@ export function Post() {
           Acabei de subir mais um projeto no meu portifa. É um projeto que fiz
           no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
         </p>
-        <p className="flex gap-1">
+        <p className="flex gap-1 focus:outline-1 focus:outline-green-500">
           👉
-          <a href="#" className="text-green-500 font-bold hover:text-green-300">
+          <a
+            href="#"
+            className="text-green-500 font-bold hover:text-green-300 
+            focus:outline-1 focus:outline-green-500"
+          >
             github.com/mateushoffmann7
           </a>
         </p>
         <p className="flex gap-1">
-          <a href="#" className="text-green-500 font-bold hover:text-green-300">
+          <a
+            href="#"
+            className="text-green-500 font-bold hover:text-green-300 
+            focus:outline-1 focus:outline-green-500"
+          >
             #novoprojeto
           </a>
-          <a href="#" className="text-green-500 font-bold hover:text-green-300">
+          <a
+            href="#"
+            className="text-green-500 font-bold hover:text-green-300 
+            focus:outline-1 focus:outline-green-500"
+          >
             #nlw
           </a>
-          <a href="#" className="text-green-500 font-bold hover:text-green-300">
+          <a
+            href="#"
+            className="text-green-500 font-bold hover:text-green-300 
+            focus:outline-1 focus:outline-green-500"
+          >
             #rocketseat
           </a>
         </p>
         <form className="flex flex-col items-start">
           <strong
             className="border-t-1 border-gray-600 w-full py-[1rem] leading-relaxed
-          "
+            focus:outline-1 focus:outline-green-500"
           >
             Deixe seu feedback
           </strong>
@@ -67,7 +83,8 @@ export function Post() {
             className="mt-4 bg-green-500 text-white rounded-[8px]
                      h-[50px] py-4 px-[1.5rem] font-bold flex
                      items-center justify-center gap-2 cursor-pointer
-                    hover:bg-green-300 transition-colors"
+                    hover:bg-green-300 transition-colors 
+                    focus:outline-1 focus:outline-green-500"
           >
             Publicar
           </button>
