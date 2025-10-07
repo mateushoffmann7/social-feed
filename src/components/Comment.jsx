@@ -4,7 +4,10 @@ import { Avatar } from './Avatar';
 export function Comment() {
   return (
     <div className="flex gap-[1rem]">
-      <Avatar src="https://github.com/mateushoffmann7.png" hasBorder={true} />
+      <Avatar
+        src="https://github.com/mateushoffmann7.png"
+        hasNotBorder={true}
+      />
       <div className="w-full">
         <div className="bg-gray-700 p-4 rounded-md flex flex-col gap-4">
           <header className="flex justify-between items-start">
