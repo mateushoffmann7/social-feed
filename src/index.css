@@ -1,5 +1,12 @@
 @import 'tailwindcss';
 
+@layer base {
+  html,
+  body {
+    @apply bg-gray-900 min-h-screen;
+  }
+}
+
 @theme {
   --color-*: initial;
   --color-white: #ffffff;
