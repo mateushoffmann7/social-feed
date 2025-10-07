@@ -1,0 +1,57 @@
+export function Post() {
+  return (
+    <div className="p-[2.5rem] bg-gray-800 rounded-[8px] mt-8 first:mt-0">
+      <article>
+        <header className="flex justify-between">
+          <div className="flex">
+            <img
+              src="https://github.com/mateushoffmann7.png"
+              className="w-[calc(3rem_+_12px)] h-[calc(3rem_+_12px)] rounded-[8px] 
+              border-4 border-gray-800 outline-2 outline-green-500"
+            />
+            <div className="flex flex-col ml-4 justify-center">
+              <strong className="text-gray-100 leading-relaxed">
+                Mateus Hoffmann de Lima
+              </strong>
+              <span className="text-gray-400 text-[0.875rem] leading-relaxed">
+                Frontend Developer
+              </span>
+            </div>
+          </div>
+          <time
+            title="05 de outubro de 2025"
+            dateTime="2025-10-05 23:47:00"
+            className="text-gray-400 text-[0.875rem]"
+          >
+            Publicado a 1h
+          </time>
+        </header>
+      </article>
+      <h1 className="mt-6 flex flex-col gap-6">
+        <p>Fala galeraa 👋</p>
+        <p>
+          Acabei de subir mais um projeto no meu portifa. É um projeto que fiz
+          no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
+        </p>
+        <p className="flex gap-1">
+          👉
+          <a href="#" className="text-green-500 font-bold hover:text-green-300">
+            github.com/mateushoffmann7
+          </a>
+        </p>
+        <p className="flex gap-1">
+          <a href="#" className="text-green-500 font-bold hover:text-green-300">
+            #novoprojeto
+          </a>
+          <a href="#" className="text-green-500 font-bold hover:text-green-300">
+            #nlw
+          </a>
+          <a href="#" className="text-green-500 font-bold hover:text-green-300">
+            #rocketseat
+          </a>
+        </p>
+        <footer></footer>
+      </h1>
+    </div>
+  );
+}
