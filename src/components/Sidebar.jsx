@@ -1,4 +1,5 @@
 import { PencilSimpleLine } from 'phosphor-react';
+import { Avatar } from './Avatar';
 
 export function Sidebar() {
   return (
@@ -8,10 +9,7 @@ export function Sidebar() {
         src="https://images.unsplash.com/photo-1605379399642-870262d3d051?q=50&w=500&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
       <div className="flex items-center flex-col mt-[calc(0px_-_1.5rem_-_6px)]">
-        <img
-          src="https://github.com/mateushoffmann7.png"
-          className="w-[calc(3rem_+_12px)] h-[calc(3rem_+_12px)] rounded-[8px] border-4 border-gray-800 outline-2 outline-green-500"
-        />
+        <Avatar src="https://github.com/mateushoffmann7.png" />
         <strong className="text-gray-100 mt-4 leading-relaxed">
           Mateus Hoffmann de Lima
         </strong>

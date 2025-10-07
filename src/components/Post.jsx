@@ -1,4 +1,5 @@
 import { Comment } from './Comment';
+import { Avatar } from './Avatar';
 
 export function Post() {
   return (
@@ -6,11 +7,7 @@ export function Post() {
       <article>
         <header className="flex justify-between">
           <div className="flex">
-            <img
-              src="https://github.com/mateushoffmann7.png"
-              className="w-[calc(3rem_+_12px)] h-[calc(3rem_+_12px)] rounded-[8px] 
-              border-4 border-gray-800 outline-2 outline-green-500"
-            />
+            <Avatar src="https://github.com/mateushoffmann7.png" />
             <div className="flex flex-col ml-4 justify-center">
               <strong className="text-gray-100 leading-relaxed">
                 Mateus Hoffmann de Lima
