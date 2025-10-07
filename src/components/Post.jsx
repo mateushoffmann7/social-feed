@@ -50,7 +50,28 @@ export function Post() {
             #rocketseat
           </a>
         </p>
-        <footer></footer>
+        <form className="flex flex-col items-start">
+          <strong
+            className="border-t-1 border-gray-600 w-full py-[1rem] leading-relaxed
+          "
+          >
+            Deixe seu feedback
+          </strong>
+          <textarea
+            placeholder="Deixe um comentário"
+            className="border-none focus:outline-1 focus:outline-green-500
+            rounded-md w-full h-24 p-4 bg-gray-900 resize-none leading-relaxed"
+          />
+          <button
+            type="submit"
+            className="mt-4 bg-green-500 text-white rounded-[8px]
+                     h-[50px] py-4 px-[1.5rem] font-bold flex
+                     items-center justify-center gap-2 cursor-pointer
+                    hover:bg-green-300 transition-colors"
+          >
+            Publicar
+          </button>
+        </form>
       </h1>
     </div>
   );
