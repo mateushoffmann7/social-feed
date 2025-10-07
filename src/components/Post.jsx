@@ -73,21 +73,25 @@ export function Post() {
           >
             Deixe seu feedback
           </strong>
-          <textarea
-            placeholder="Deixe um comentário"
-            className="border-none focus:outline-1 focus:outline-green-500
-            rounded-md w-full h-24 p-4 bg-gray-900 resize-none leading-relaxed"
-          />
-          <button
-            type="submit"
-            className="mt-4 bg-green-500 text-white rounded-[8px]
+          <div className="group w-full">
+            <textarea
+              placeholder="Deixe um comentário"
+              className="border-none focus:outline-1 focus:outline-green-500
+              rounded-md w-full h-24 p-4 bg-gray-900 resize-none leading-relaxed"
+            />
+            <footer className="hidden group-focus-within:block">
+              <button
+                type="submit"
+                className="mt-4 bg-green-500 text-white rounded-[8px]
                      h-[50px] py-4 px-[1.5rem] font-bold flex
                      items-center justify-center gap-2 cursor-pointer
                     hover:bg-green-300 transition-colors 
-                    focus:outline-1 focus:outline-green-500"
-          >
-            Publicar
-          </button>
+                    focus:outline-1 focus:outline-green-300"
+              >
+                Publicar
+              </button>
+            </footer>
+          </div>
         </form>
       </h1>
     </div>
